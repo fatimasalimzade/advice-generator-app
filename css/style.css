@@ -1,0 +1,52 @@
+body {
+    background-color: #1f2632;
+    color: #c5c6c7;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.box {
+    position: relative;
+    text-align: center;
+    background-color: #323a49;
+    padding: 30px;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.advicenum {
+    color: #52ffa8;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+}
+
+.advice {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.divider {
+    padding: 30px 0;
+}
+
+.dice-button {
+    background-color: #52ffa8;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
